@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.navbar h1{
+color: rgb(134, 86, 223);
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+
+.navbar h2{
+    color: tomato;
+}
+
+/* Navbar end */
+/* anasayfa start */
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* anasayfa end */
+/* Ürünlerimiz start */
+
+.product ol li img{
+    box-shadow: 0px 0px 10px 1px grey;
+    width: 500px;
+}
+
+/* Ürünlerimiz end */
+
+/* hakkımızda start */
+
+.about{
+  width: 80%;
+}
+.about h3{
+    color:rgb(238, 223, 12);
+}
+
+/* hakkımızda end */
